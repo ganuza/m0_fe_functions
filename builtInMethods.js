@@ -52,8 +52,8 @@ console.log(firstName.startsWith("J"));
 // The argument " is the best" is passed
 // In this example, the return value is Pilsner is the best
 // The console.log() statement prints the return value of concat() method (Pilsner is the best) to the console
-var animal = "Tiger"
-var beer = "Pilsner"
+var animal = "Tiger";
+var beer = "Pilsner";
 
 console.log(animal.repeat(3));
 console.log(beer.concat(" is the best"));
@@ -66,3 +66,19 @@ console.log(beer.concat(" is the best"));
 // Call a different built-in JavaScript method on each of your variables. 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 // Include comments above each method call explaining the impact and return value of that method.
+
+var age = [10, 13, 18];
+var children = ["Tim", "Liz", "Sue"];
+
+
+// The join method is called on the children variable that stores the array above
+// no argument is passed
+// In this example the return value is Tim,Liz,Sue
+// The console.log() statement prints the return value of the join() method (Tim,Liz,Sue) to the console
+console.log(children.join());
+
+//  The reverse method is called on the age variable that stores the array
+// no argument is passed
+// In this example the return value is [18, 13, 10]
+// The console.log() statement prints the return value of the reverse() method [18, 13, 10] to the console
+console.log(age.reverse());
