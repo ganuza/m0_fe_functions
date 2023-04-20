@@ -43,6 +43,22 @@
 var firstName = "Jeff";
 console.log(firstName.startsWith("J"));
 
+// The repeat method is called on the animal variable, which stores an object "Tiger".
+// The argument 3 is passed
+// In this example, the return value is TigerTigerTiger
+// The console.log() statement prints the return value of repeat() method (TigerTigerTiger) to the console
+
+// The concat method is called on the beer variable, which stores a string "Pilsner"
+// The argument " is the best" is passed
+// In this example, the return value is Pilsner is the best
+// The console.log() statement prints the return value of concat() method (Pilsner is the best) to the console
+var animal = "Tiger"
+var beer = "Pilsner"
+
+console.log(animal.repeat(3));
+console.log(beer.concat(" is the best"));
+
+
 
 
 // SECTION 3: Calling methods on variables assigned to arrays.
